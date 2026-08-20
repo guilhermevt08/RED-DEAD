@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+*{
+    margin: 3%;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    background-image: linear-gradient(
+        rgba(15, 10, 8, 0.82), 
+        rgba(15, 10, 8, 0.82)
+    ), url('http://googleusercontent.com/image_collection/image_retrieval/2181622414144043232_0');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #0f0a08;
+    color: #e3dac9;
+    font-family: 'Merriweather', Georgia, serif;
+}
+
+
+p {
+    background-color: rgba(28, 20, 16, 0.85);
+    border-left: 4px solid #c1121f; 
+    padding: 22px 28px;
+    margin-bottom: 24px;
+    border-radius: 2px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    font-size: 1.05rem;
+    letter-spacing: 0.3px;
+    backdrop-filter: blur(3px);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+p:first-of-type::first-letter {
+    font-family: 'Rye', serif;
+    font-size: 3.2rem;
+    float: left;
+    line-height: 0.8;
+    margin-right: 12px;
+    color: #c1121f;
+    text-shadow: 1px 1px 2px #000;
+}
+
+
+p:hover {
+    transform: translateY(-3px);
+    border-left-color: #e63946;
+    box-shadow: 0 12px 25px rgba(193, 18, 31, 0.25);
+    background-color: rgba(35, 25, 20, 0.92);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #0f0a08;
+}
+::-webkit-scrollbar-thumb {
+    background: #c1121f;
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #e63946;
+}
+
+img{
+    width: 420px;
+    border-radius: 15%;
+    transition: transform 0.3s ease;
+   
+
+}
+
+.caixola {
+    width:  fit-content;
+    margin: auto;
+}
+
+.caixa{
+     width:  fit-content;
+    margin: auto;
+}
